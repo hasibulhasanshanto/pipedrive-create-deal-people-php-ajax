@@ -1,0 +1,35 @@
+// ADD deal
+{ 
+	"title": "Full Duplex Flat", 
+	"person_id": 8,
+	"value": "12000",
+	"expected_close_date": "2021-01-31",
+	"c1fc0b83dea0d9cc50f6186f168a390cccba33a0": 12,		// Property Type
+	"2cffd855a084b1f88d7d03fdbd216375fc906648": 4,		// Bedrooms
+	"bc33a7dde64dd5d6866a45c6711abb8521caa2fc": "2021-01-30",	// Sell By Date
+	"7889d108c3c53563ab4796a071587c71fb601dcc": "Banani Model Town, Dhaka, Bangladesh"	// Property Address
+}
+
+// ADD Person
+{
+	"name": "Aziz Mia",
+	"label": 1,		// Customer
+	"email": [
+        {
+            "label": "work",	// work, home, other
+            "value": "test@gmail.com",
+            "primary": true
+        }
+    ],
+    "phone": [
+        {
+            "label": "home", // work, home, mobile, other
+            "value": "0177550055",
+            "primary": true
+        }
+    ],
+}
+
+
+
+{"name": "Imrul Kayes","label": 1,"email":[{"label": "work","value": "kayes@gmail.com","primary": true}],"phone":[{"label": "home","value": "0177550022","primary": true}]}

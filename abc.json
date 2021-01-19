@@ -1,0 +1,37 @@
+// Add person
+// API: https://api.pipedrive.com/v1/persons?api_token=05d18ba52491821e4339deafe45c609238f91f8a
+// Headers: Content-Type : application/json
+
+{
+	"name": "Imrul Kayes",
+	"label": 1,
+	"email": [
+        {
+            "label": "work",
+            "value": "kayes@gmail.com",
+            "primary": true
+        }
+    ],
+    "phone": [
+        {
+            "label": "home",
+            "value": "0177550022",
+            "primary": true
+        }
+    ]
+}
+
+// Add Deal
+// API: https://api.pipedrive.com/v1/deals?api_token=05d18ba52491821e4339deafe45c609238f91f8a
+// Headers: Content-Type : application/json
+
+{ 
+	"title": "Full Duplex Flat", 
+	"person_id": 8,
+	"value": "12000",
+	"expected_close_date": "2021-01-31",
+	"c1fc0b83dea0d9cc50f6186f168a390cccba33a0": 12,
+	"2cffd855a084b1f88d7d03fdbd216375fc906648": 4,
+	"bc33a7dde64dd5d6866a45c6711abb8521caa2fc": "2021-01-30",
+	"7889d108c3c53563ab4796a071587c71fb601dcc": "Banani Model Town, Dhaka, Bangladesh"
+}
