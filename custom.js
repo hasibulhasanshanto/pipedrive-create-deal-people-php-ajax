@@ -20,6 +20,9 @@ function pDriveIntegration() {
             var obj = JSON.parse(xhrDeal.responseText);
             var deal_id = obj.data.id;
             window.location.href = 'http://localhost/pipeline/deal.php';
+
+
+            // Call Deals api here
         }
     }
     xhrDeal.open("POST", url + rsrc_deals + "?" + "api_token" + "=" + api_token, false);
